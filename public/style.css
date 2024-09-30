@@ -1,0 +1,95 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #395d43;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="file"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #1DB954;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #14833B;
+}
+
+input[type="text"]::placeholder {
+    color: #888;
+}
+
+/* Song list table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: white;
+}
+
+th {
+    background-color: #121212;
+}
+
+tr:nth-child(even) {
+    background-color: #282828;
+}
+
+tr:nth-child(odd) {
+    background-color: #121212;
+}
+
+audio {
+    width: 500px;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    border: none;
+}
+
+#searchInput::placeholder {
+    color: #888;
+}
